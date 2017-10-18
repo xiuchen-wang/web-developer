@@ -34,12 +34,12 @@
     		clearContent();
     		return;
     	}
-    // alert(content.value);
+    	// alert(content.value);
     	// 获得XMLhttp对象
     	xmlHttp = createXMLHttp();
     	
     	// 给服务器发送数据
-    // var url = "search?keyword=" + escape(contents.value);
+    	// var url = "search?keyword=" + escape(contents.value);
     	var url = "search?keyword="+escape(content.value);
     	// true 表示js会在send()方法之后继续执行，而不会等待来自服务器的响应。
     	xmlHttp.open("GET",url,true);
